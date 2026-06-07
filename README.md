@@ -22,5 +22,8 @@ For your uploaded skincare toolkit project, you could use:
   <!-- Platform Adapter -->
 
 </div>
-        
+
+
+ 01 — 5 Hook Templates
+02 — AI Prompt Tools       
       
