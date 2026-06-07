@@ -10,10 +10,10 @@ const prompt = `
 You are an elite DTC skincare copywriter.
 
 Product:
-${product}
+$40
 
 Platform:
-${platform}
+$1000
 
 Generate:
 
