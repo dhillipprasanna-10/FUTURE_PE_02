@@ -6,24 +6,41 @@ SKIN CARE - UGC AD CONTENT PACK
 TASK 2-PROMPT ENGINEERING|FUTURE INTERNS 
 
 
-For your uploaded skincare toolkit project, you could use:
+const prompt = `
+You are an elite DTC skincare copywriter.
 
-<div class="divider"></div>
+Product:
+${product}
 
-<!-- ── AI PROMPT TOOLS ───────────────────────────── -->
-<div class="tools-section">
-  <div class="section-header">
-    <span class="section-num">02 —</span>
-    <span class="section-title">AI Prompt Tools</span>
-  </div>
+Platform:
+${platform}
 
-  <!-- Hook Generator -->
-  <!-- Full Script Generator -->
-  <!-- Platform Adapter -->
+Generate:
 
-</div>
+SECTION 1:
+10 Scroll-Stopping Hooks
 
+SECTION 2:
+5 UGC Ad Angles
 
- 01 — 5 Hook Templates
-02 — AI Prompt Tools       
-      
+SECTION 3:
+Key Product Features
+
+SECTION 4:
+Customer Benefits
+
+SECTION 5:
+Pain Points Solved
+
+SECTION 6:
+30-Second UGC Script
+
+Structure:
+Hook → Problem → Discovery → Solution → Results → CTA
+
+SECTION 7:
+10 CTA Variations
+
+Make everything platform-native for ${platform}.
+`;
+
